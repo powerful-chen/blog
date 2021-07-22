@@ -50,6 +50,28 @@ public class ArticleServiceImpl implements ArticleService {
         return Result.success(articleVoList);
     }
 
+    @Override
+    public Result hotArticle(int limit) {
+        LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<>();
+        // select id,title from article order by view_counts desc limit 5
+        queryWrapper.orderByDesc(Article::getViewCounts);
+        queryWrapper.select(Article::getId,Article::getTitle);
+        queryWrapper.last("limit "+limit);
+        List<Article> articles = articleMapper.selectList(queryWrapper);
+        return Result.success(copyList(articles,false,false));
+    }
+
+    @Override
+    public Result newArticles(int limit) {
+        LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<>();
+        // select id,title from article order by getCreateDate desc limit 5
+        queryWrapper.orderByDesc(Article::getCreateDate);
+        queryWrapper.select(Article::getId,Article::getTitle);
+        queryWrapper.last("limit "+limit);
+        List<Article> articles = articleMapper.selectList(queryWrapper);
+        return Result.success(copyList(articles,false,false));
+    }
+
     private List<ArticleVo> copyList(List<Article> records, boolean isTags, boolean isAuthor) {
         ArrayList<ArticleVo> articleVoList = new ArrayList<>();
         for (Article article : records) {

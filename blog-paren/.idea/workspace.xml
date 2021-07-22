@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2027614b-8275-4b06-9822-ce54cc6ed78a" name="Default Changelist" comment="" />
+    <list default="true" id="2027614b-8275-4b06-9822-ce54cc6ed78a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/controller/ArticleController.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/blog-api/target/" />
@@ -45,33 +52,26 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/mapper/TagMapper.java">
+        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/ArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="394">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/com/chen/blog/dao/mapper/TagMapper.xml">
+        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/handle/AllExceptionHandle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="286">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,34 +80,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/ArticleController.java">
+        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/TagsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/TagsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="402">
+              <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,6 +100,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -148,8 +127,6 @@
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/service/impl/TagServiceImpl.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/service/impl/TagsServiceImpl.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/PageParams.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/BlogApp.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/config/WebMVCConfig.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/config/MybatisPlusConfig.java" />
@@ -160,6 +137,8 @@
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/TagsServiceImpl.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/handle/AllExceptionHandle.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -190,19 +169,20 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="867" />
-    <option name="y" value="17" />
-    <option name="width" value="1059" />
+    <option name="x" value="877" />
+    <option name="y" value="2" />
+    <option name="width" value="1060" />
     <option name="height" value="1025" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="CatdeaLogs" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,6 +295,18 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -327,6 +319,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -383,18 +376,19 @@
       <option name="presentableId" value="Default" />
       <updated>1626076773501</updated>
       <workItem from="1626076775798" duration="10726000" />
-      <workItem from="1626142689272" duration="16531000" />
+      <workItem from="1626142689272" duration="17427000" />
+      <workItem from="1626913837550" duration="1741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27257000" />
+    <option name="totallyTimeSpent" value="29894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="694" y="14" width="847" height="820" extended-state="0" />
+    <frame x="702" y="2" width="848" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26869455" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26708862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -402,10 +396,9 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37293234" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49936628" weight="0.37048194" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,10 +407,11 @@
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32980332" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5006337" side_tool="true" weight="0.37293234" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -556,16 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/SysUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -577,16 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -662,16 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/TagsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/TagsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -689,10 +653,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/TagsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/handle/AllExceptionHandle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="108">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -701,8 +675,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/ArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="394">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
