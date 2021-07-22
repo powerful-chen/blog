@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2027614b-8275-4b06-9822-ce54cc6ed78a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/mapper/ArticleMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/dao/mapper/ArticleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/dao/mapper/ArticleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/service/impl/ArticleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,38 +57,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/ArticleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/com/chen/blog/dao/mapper/ArticleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/mapper/ArticleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/blog-api/pom.xml" />
         <option value="$PROJECT_DIR$/blog-api/src/main/resources/application.properties" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3d717a0a-ec2f-4121-935f-4892dcfa282b/console_1.sql" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/pojo/Article.java" />
@@ -119,7 +105,6 @@
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/pojo/Tag.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/ArticleVo.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/service/ArticleService.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/mapper/ArticleMapper.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/service/impl/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/service/SysUserService.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/service/impl/SysUserServiceImpl.java" />
@@ -139,6 +124,14 @@
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/mapper/ArticleMapper.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/dos/Archives.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/test/tryTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-api/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/test/tryTest.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/resources/com/chen/blog/dao/mapper/ArchivesMapper.xml" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/resources/com/chen/blog/dao/mapper/ArticleMapper.xml" />
       </list>
     </option>
   </component>
@@ -159,30 +152,26 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="blog-paren" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="877" />
     <option name="y" value="2" />
     <option name="width" value="1060" />
     <option name="height" value="1025" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,6 +257,44 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="chen" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="dos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="handle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -305,12 +332,139 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="chen" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,6 +477,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog-api/src/main/resources/com/chen/blog/dao/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -332,6 +487,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.chen.blog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学习区\博客练手项目\博客代码\blog-paren\blog-api\src\main\resources\com\chen\blog\dao\mapper" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -345,7 +508,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.BlogApp">
+    <configuration name="tryTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chen.blog.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chen.blog.test" />
+      <option name="MAIN_CLASS_NAME" value="com.chen.blog.test.tryTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BlogApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="blog-api" />
       <extension name="coverage">
@@ -362,6 +541,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.BlogApp" />
+        <item itemvalue="JUnit.tryTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -377,18 +557,33 @@
       <updated>1626076773501</updated>
       <workItem from="1626076775798" duration="10726000" />
       <workItem from="1626142689272" duration="17427000" />
-      <workItem from="1626913837550" duration="1741000" />
+      <workItem from="1626913837550" duration="4576000" />
+      <workItem from="1626918941630" duration="4308000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="tryTest_test01 - 2021.07.22 at 11h 20m 17s.xml">
+      <configuration name="tryTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="tryTest_test01 - 2021.07.22 at 11h 26m 12s.xml">
+      <configuration name="tryTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="tryTest_test01 - 2021.07.22 at 11h 27m 08s.xml">
+      <configuration name="tryTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="tryTest_test01 - 2021.07.22 at 11h 27m 42s.xml">
+      <configuration name="tryTest.test01" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29894000" />
+    <option name="totallyTimeSpent" value="37037000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="702" y="2" width="848" height="820" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26708862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27680966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -398,8 +593,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49936628" weight="0.37048194" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49936628" weight="0.46187684" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40175954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -415,16 +610,34 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32868022" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32841823" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3172589" />
+      <window_info anchor="right" id="Database" order="6" weight="0.2164557" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -433,13 +646,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.25/mysql-connector-java-8.0.25.pom">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db140997-a2a7-496a-ba22-d58fa5285d80/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
@@ -530,16 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/mapper/ArticleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/mapper/SysUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -580,31 +776,12 @@
     <entry file="file://$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/dao/mapper/TagMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/config/WebMVCConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/BlogApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -629,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.7/spring-web-5.3.7.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/TagsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -643,13 +813,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/com/chen/blog/dao/mapper/TagMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -673,22 +836,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.7/spring-web-5.3.7.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/dao/mapper/ArchivesMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/com/chen/blog/dao/mapper/TagMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/ArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        <state relative-caret-position="138">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#606#607#0" expanded="true" />
             <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/BlogApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.0/spring-boot-autoconfigure-2.5.0.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/dos/Archives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/ArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="169">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/test/tryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -697,11 +929,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
+        <state relative-caret-position="225">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/com/chen/blog/dao/mapper/ArchivesMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/mapper/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/com/chen/blog/dao/mapper/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

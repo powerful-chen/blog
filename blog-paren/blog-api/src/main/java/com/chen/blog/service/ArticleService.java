@@ -13,4 +13,8 @@ public interface ArticleService {
 
     //最新文章
     Result newArticles(int limit);
+
+    //文章归档
+    Result listArchives();
+
 }

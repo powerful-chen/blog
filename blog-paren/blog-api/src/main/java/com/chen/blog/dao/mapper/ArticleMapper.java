@@ -1,7 +1,10 @@
 package com.chen.blog.dao.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.chen.blog.dao.dos.Archives;
 import com.chen.blog.dao.pojo.Article;
+
+import java.util.List;
 
 /**
  * @ClassName ArticleMapper
@@ -10,4 +13,5 @@ import com.chen.blog.dao.pojo.Article;
  * @Date 2021/7/12 21:25
  */
 public interface ArticleMapper extends BaseMapper<Article> {
+    List<Archives> listArchives();
 }
