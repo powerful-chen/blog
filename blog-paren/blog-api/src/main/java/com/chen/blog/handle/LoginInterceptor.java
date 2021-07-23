@@ -3,6 +3,7 @@ package com.chen.blog.handle;
 import com.alibaba.fastjson.JSON;
 import com.chen.blog.dao.pojo.SysUser;
 import com.chen.blog.service.LoginService;
+import com.chen.blog.utils.UserThreadLocal;
 import com.chen.blog.vo.ErrorCode;
 import com.chen.blog.vo.Result;
 import lombok.extern.slf4j.Slf4j;
@@ -64,8 +65,14 @@ public class LoginInterceptor implements HandlerInterceptor {
             response.getWriter().print(JSON.toJSONString(result));
             return false;
         }
-
+        UserThreadLocal.put(sysUser);
         //登录成功，放行
         return true;
+    }
+
+    @Override
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+        //如果不删除 ThreadLocal会存在内存泄露的风险
+        UserThreadLocal.remove();
     }
 }
