@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2027614b-8275-4b06-9822-ce54cc6ed78a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/SysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/LoginParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/LoginParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/config/WebMVCConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/config/WebMVCConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/config/WebMVCConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/config/WebMVCConfig.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,44 +49,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/LoginServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="75" column="37" lean-forward="true" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/LoginService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,7 +82,6 @@
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/service/impl/TagsServiceImpl.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/PageParams.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/BlogApp.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/config/WebMVCConfig.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/config/MybatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/TagsController.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/TagsService.java" />
@@ -154,6 +113,9 @@
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/SysUserService.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/config/WebMVCConfig.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/handle/LoginInterceptor.java" />
       </list>
     </option>
   </component>
@@ -179,10 +141,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="842" />
-    <option name="y" value="20" />
+    <option name="x" value="877" />
+    <option name="y" value="17" />
     <option name="width" value="1060" />
-    <option name="height" value="1025" />
+    <option name="height" value="1022" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -256,6 +218,18 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="chen" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chen" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
@@ -585,7 +559,7 @@
       <workItem from="1626076775798" duration="10726000" />
       <workItem from="1626142689272" duration="17427000" />
       <workItem from="1626913837550" duration="4576000" />
-      <workItem from="1626918941630" duration="19816000" />
+      <workItem from="1626918941630" duration="23161000" />
     </task>
     <servers />
   </component>
@@ -613,13 +587,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52545000" />
+    <option name="totallyTimeSpent" value="55890000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="702" y="14" width="848" height="817" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17225201" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25189874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -629,8 +602,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49936628" visible="true" weight="0.25659823" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35337242" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49936628" weight="0.25567323" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3524962" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -658,22 +631,6 @@
     <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="&quot;0067ca7a097bb7109e1b4f6f21bddc42&quot;" />
@@ -694,37 +651,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://3d717a0a-ec2f-4121-935f-4892dcfa282b/schema/blog/table/ms_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="603eba46-6ea7-4f33-aa38-69e45ea9d651">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3d717a0a-ec2f-4121-935f-4892dcfa282b/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/ArticleParam.java" />
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/pojo/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/pojo/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/pojo/Tag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -792,16 +718,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/target/classes/com/chen/blog/dao/mapper/TagMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/config/WebMVCConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/TagsService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -921,16 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1091,7 +997,7 @@
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="75" column="37" lean-forward="true" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1117,8 +1023,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/LoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
+        <state relative-caret-position="226">
+          <caret line="118" column="37" selection-start-line="118" selection-start-column="37" selection-end-line="118" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.76/fastjson-1.2.76.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="496" column="25" selection-start-line="496" selection-start-column="25" selection-end-line="496" selection-end-column="25" />
+          <folding>
+            <element signature="e#19436#19437#0" expanded="true" />
+            <element signature="e#19493#19494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.76/fastjson-1.2.76-sources.jar!/com/alibaba/fastjson/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="673" column="23" lean-forward="true" selection-start-line="673" selection-start-column="23" selection-end-line="673" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/config/WebMVCConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.7/spring-webmvc-5.3.7.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/handle/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
