@@ -12,4 +12,5 @@ public interface SysUserService {
 
     SysUser findUserById(Long userId);
 
+    SysUser findUser(String account, String password);
 }
