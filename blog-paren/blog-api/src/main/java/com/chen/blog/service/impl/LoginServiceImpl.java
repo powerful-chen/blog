@@ -87,4 +87,45 @@ public class LoginServiceImpl implements LoginService {
         redisTemplate.delete("TOKEN_" + token);
         return Result.success(null);
     }
+
+    //注册
+    @Override
+    public Result register(LoginParam loginParam) {
+        /**
+         * 1、判断参数是否合法
+         * 2、判断账号是否存在，存在返回账号已经被注册
+         * 3、不存在，注册用户
+         * 4、生成token
+         * 5、存入redis并返回
+         * 6、注意 要加上事务，一旦中间的任何过程出现错误，注册的用户需要回滚
+         */
+        String account = loginParam.getAccount();
+        String password = loginParam.getPassword();
+        String nickname = loginParam.getNickname();
+        if (StringUtils.isBlank(account) || StringUtils.isBlank(password) || StringUtils.isBlank(nickname)) {
+            return Result.fail(ErrorCode.PARAMS_ERROR.getCode(), ErrorCode.PARAMS_ERROR.getMsg());
+        }
+        SysUser sysUser = sysUserService.findUserByAccount(account);
+        if (sysUser != null) {
+            return Result.fail(ErrorCode.ACCOUNT_EXIST.getCode(), "账号已被注册");
+        }
+        sysUser = new SysUser();
+        sysUser.setNickname(nickname);
+        sysUser.setAccount(account);
+        sysUser.setPassword(DigestUtils.md5Hex(password + slat));
+        sysUser.setCreateDate(System.currentTimeMillis());
+        sysUser.setLastLogin(System.currentTimeMillis());
+        sysUser.setAvatar("/static/img/logo.b3a48c0.png");
+        sysUser.setAdmin(1);//1 为true
+        sysUser.setDeleted(0);//0 为false
+        sysUser.setSalt("");
+        sysUser.setStatus("");
+        sysUser.setEmail("");
+        this.sysUserService.save(sysUser);
+
+        String token = JWTUtils.createToken(sysUser.getId());
+        redisTemplate.opsForValue().set("TOKEN_" + token, JSON.toJSONString(sysUser), 1, TimeUnit.DAYS);
+
+        return Result.success(token);
+    }
 }

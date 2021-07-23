@@ -15,6 +15,8 @@ public enum ErrorCode {
 
     TOKEN_ERROR(10003, "token不合法"),
 
+    ACCOUNT_EXIST(10004,"账号已存在"),
+
     NO_PERMISSION(70001, "无访问权限"),
 
     SESSION_TIME_OUT(90001, "会话超时"),

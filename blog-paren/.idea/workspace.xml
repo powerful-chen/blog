@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/LoginServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/LoginParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/LoginParam.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,8 +56,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/LoginServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+            <state relative-caret-position="270">
+              <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="75" column="37" lean-forward="true" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/LoginService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,18 +140,19 @@
         <option value="$PROJECT_DIR$/blog-api/src/main/resources/com/chen/blog/dao/mapper/ArchivesMapper.xml" />
         <option value="$PROJECT_DIR$/blog-api/src/main/resources/com/chen/blog/dao/mapper/ArticleMapper.xml" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/utils/JWTUtils.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/LoginParam.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/blog-api/pom.xml" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/test/tryTest.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/SysUserService.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/ErrorCode.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/LoginUserVo.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/UsersController.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/LoginService.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/LogoutController.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/LoginParam.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/ErrorCode.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/LoginServiceImpl.java" />
       </list>
     </option>
@@ -153,8 +179,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="895" />
-    <option name="y" value="5" />
+    <option name="x" value="842" />
+    <option name="y" value="20" />
     <option name="width" value="1060" />
     <option name="height" value="1025" />
   </component>
@@ -559,7 +585,7 @@
       <workItem from="1626076775798" duration="10726000" />
       <workItem from="1626142689272" duration="17427000" />
       <workItem from="1626913837550" duration="4576000" />
-      <workItem from="1626918941630" duration="15293000" />
+      <workItem from="1626918941630" duration="19816000" />
     </task>
     <servers />
   </component>
@@ -587,13 +613,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48022000" />
+    <option name="totallyTimeSpent" value="52545000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="716" y="4" width="848" height="820" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32531646" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17225201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -603,7 +629,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49936628" visible="true" weight="0.29216868" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49936628" visible="true" weight="0.25659823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35337242" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -668,9 +694,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3d717a0a-ec2f-4121-935f-4892dcfa282b/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="das://3d717a0a-ec2f-4121-935f-4892dcfa282b/schema/blog/table/ms_article">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="603eba46-6ea7-4f33-aa38-69e45ea9d651">
@@ -952,13 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/LoginParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -995,20 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/SysUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/ErrorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar!/io/jsonwebtoken/impl/DefaultJwtBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
@@ -1040,16 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -1072,20 +1064,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/ErrorCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="240">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/LoginParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="75" column="37" lean-forward="true" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/LoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

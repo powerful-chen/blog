@@ -8,9 +8,9 @@ import com.chen.blog.service.SysUserService;
 import com.chen.blog.vo.ErrorCode;
 import com.chen.blog.vo.LoginUserVo;
 import com.chen.blog.vo.Result;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * @ClassName SysUserServiceImpl
@@ -19,6 +19,7 @@ import org.springframework.stereotype.Service;
  * @Date 2021/7/12 22:10
  */
 @Service
+@Transactional//事务
 public class SysUserServiceImpl implements SysUserService {
 
     @Autowired
@@ -66,5 +67,19 @@ public class SysUserServiceImpl implements SysUserService {
         loginUserVo.setAvatar(sysUser.getAvatar());
         loginUserVo.setNickname(sysUser.getNickname());
         return Result.success(loginUserVo);
+    }
+
+    @Override
+    public SysUser findUserByAccount(String account) {
+        LambdaQueryWrapper<SysUser> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(SysUser::getAccount, account);
+        queryWrapper.last("limit 1");
+        return sysUserMapper.selectOne(queryWrapper);
+    }
+
+    @Override
+    public void save(SysUser sysUser) {
+        //默认生成的id是分布式id，采用了雪花算法的策略
+        this.sysUserMapper.insert(sysUser);
     }
 }
