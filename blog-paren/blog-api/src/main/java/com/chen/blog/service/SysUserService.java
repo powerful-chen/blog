@@ -1,6 +1,7 @@
 package com.chen.blog.service;
 
 import com.chen.blog.dao.pojo.SysUser;
+import com.chen.blog.vo.Result;
 
 /**
  * @ClassName SysUserService
@@ -13,4 +14,7 @@ public interface SysUserService {
     SysUser findUserById(Long userId);
 
     SysUser findUser(String account, String password);
+
+    //根据token查询用户信息
+    Result findUserByToken(String token);
 }
