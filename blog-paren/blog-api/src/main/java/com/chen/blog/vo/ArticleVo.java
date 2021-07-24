@@ -18,11 +18,11 @@ public class ArticleVo {
 
     private String summary;//简介
 
-    private int commentCounts;//评论数量
+    private Integer commentCounts;//评论数量
 
-    private int viewCounts;//浏览数量
+    private Integer viewCounts;//浏览数量
 
-    private int weight;//置顶
+    private Integer weight;//置顶
 
     private String createDate;//创建时间
 
@@ -32,7 +32,7 @@ public class ArticleVo {
 
     private List<TagVo> tags;
 
-    private CategoryVo categorys;
+    private CategoryVo category;
 
 
 }

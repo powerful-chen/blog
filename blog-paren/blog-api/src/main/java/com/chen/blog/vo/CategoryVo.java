@@ -15,6 +15,8 @@ public class CategoryVo {
 
     private String avatar;
 
-    private String CategoryName;
+    private String categoryName;
+
+    private String description;
 
 }

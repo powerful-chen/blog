@@ -143,7 +143,7 @@ public class ArticleServiceImpl implements ArticleService {
         }
         if (isCategory) {
             Long categoryId = article.getCategoryId();
-            articleVo.setCategorys(categoryService.findCategoryById(categoryId));
+            articleVo.setCategory(categoryService.findCategoryById(categoryId));
         }
         return articleVo;
     }

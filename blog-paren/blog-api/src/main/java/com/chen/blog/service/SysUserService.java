@@ -2,6 +2,7 @@ package com.chen.blog.service;
 
 import com.chen.blog.dao.pojo.SysUser;
 import com.chen.blog.vo.Result;
+import com.chen.blog.vo.UserVo;
 
 /**
  * @ClassName SysUserService
@@ -10,6 +11,8 @@ import com.chen.blog.vo.Result;
  * @Date 2021/7/12 22:07
  */
 public interface SysUserService {
+
+    UserVo findUserVoById(Long id);
 
     SysUser findUserById(Long userId);
 
