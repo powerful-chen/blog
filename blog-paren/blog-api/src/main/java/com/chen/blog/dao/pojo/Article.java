@@ -21,9 +21,9 @@ public class Article {
 
     private String summary;//简介
 
-    private int commentCounts;//评论数量
+    private Integer commentCounts;//评论数量
 
-    private int viewCounts;//浏览数量
+    private Integer viewCounts;//浏览数量
 
     private Long authorId;//作者id
 
@@ -31,7 +31,7 @@ public class Article {
 
     private Long categoryId;//类别id
 
-    private int weight = Article_Common;//置顶
+    private Integer weight;//置顶
 
     private Long createDate;//创建时间
 
