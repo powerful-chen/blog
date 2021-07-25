@@ -30,6 +30,7 @@ public class WebMVCConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(loginInterceptor)
                 .addPathPatterns("/test")
-                .addPathPatterns("/comments/create/change");//必须登录的用户才能参与评论
+                .addPathPatterns("/comments/create/change")//必须登录的用户才能参与评论
+                .addPathPatterns("/articles/publish");//必须登录的用户才能发布文章
     }
 }
