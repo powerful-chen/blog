@@ -1,6 +1,7 @@
 package com.chen.blog.service;
 
 import com.chen.blog.vo.CategoryVo;
+import com.chen.blog.vo.Result;
 
 /**
  * @ClassName CategoryService
@@ -10,4 +11,7 @@ import com.chen.blog.vo.CategoryVo;
  */
 public interface CategoryService {
     CategoryVo findCategoryById(Long categoryId);
+
+    Result findAll();
+
 }

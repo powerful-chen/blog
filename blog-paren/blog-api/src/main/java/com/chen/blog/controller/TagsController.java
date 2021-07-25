@@ -27,4 +27,10 @@ public class TagsController {
         return tagsService.hots(limit);
     }
 
+    //查找所有标签
+    @GetMapping()
+    public Result findAll() {
+        return tagsService.findAll();
+    }
+
 }

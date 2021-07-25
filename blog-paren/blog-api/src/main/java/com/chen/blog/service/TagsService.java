@@ -15,4 +15,8 @@ public interface TagsService {
     List<TagVo> findTagsByArticleId(Long articleId);
 
     Result hots(int limit);
+
+    //查找所有文章
+    Result findAll();
+
 }

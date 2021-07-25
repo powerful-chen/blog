@@ -1,5 +1,6 @@
 package com.chen.blog.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.chen.blog.dao.mapper.TagMapper;
 import com.chen.blog.dao.pojo.Tag;
 import com.chen.blog.service.TagsService;
@@ -58,11 +59,17 @@ public class TagsServiceImpl implements TagsService {
          */
         List<Long> tagIds = tagMapper.findHotsTagIds(limit);
         //如果tagIds为空则将其设为空数组
-        if (CollectionUtils.isEmpty(tagIds)){
+        if (CollectionUtils.isEmpty(tagIds)) {
             return Result.success(Collections.emptyList());
         }
         List<Tag> tagList = tagMapper.findTagsByTagIds(tagIds);
 
         return Result.success(tagList);
+    }
+
+    @Override
+    public Result findAll() {
+        List<Tag> tags = this.tagMapper.selectList(new LambdaQueryWrapper<>());
+        return Result.success(copyList(tags));
     }
 }
