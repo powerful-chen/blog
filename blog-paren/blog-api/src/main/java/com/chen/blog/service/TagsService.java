@@ -19,4 +19,7 @@ public interface TagsService {
     //查找所有文章
     Result findAll();
 
+    Result findAllDetail();
+
+    Result findDetailById(Long id);
 }

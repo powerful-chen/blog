@@ -14,4 +14,8 @@ public interface CategoryService {
 
     Result findAll();
 
+    Result findAllDetail();
+
+    //通过id查询分类列表
+    Result categoryDetailById(Long id);
 }
