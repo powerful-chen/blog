@@ -44,6 +44,7 @@ public class CommentServiceImpl implements CommentService {
         LambdaQueryWrapper<Comment> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.eq(Comment::getArticleId, id);
         queryWrapper.eq(Comment::getLevel, 1);
+        queryWrapper.orderByDesc(Comment::getCreateDate);
         List<Comment> comments = commentMapper.selectList(queryWrapper);
         List<CommentVo> commentVoList = copyList(comments);
         return Result.success(commentVoList);
@@ -81,6 +82,7 @@ public class CommentServiceImpl implements CommentService {
     private CommentVo copy(Comment comment) {
         CommentVo commentVo = new CommentVo();
         BeanUtils.copyProperties(comment, commentVo);
+        commentVo.setId(String.valueOf(comment.getId()));
         //作者信息
         Long authorId = comment.getAuthorId();
         UserVo userVo = this.sysUserService.findUserVoById(authorId);
