@@ -4,11 +4,7 @@
     <list default="true" id="2027614b-8275-4b06-9822-ce54cc6ed78a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/permission.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/permission.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/static/pages/permission.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/static/pages/permission.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/main.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,52 +52,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/permission.html">
+        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/AuthService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="289" column="48" selection-start-line="289" selection-start-column="48" selection-end-line="289" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-admin/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/model/params/PageParam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/PermissionService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+            <state relative-caret-position="396">
+              <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +64,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/vo/PageResult.java">
+        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/SecurityUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="462">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/mapper/PermissionMapper.java">
+        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/AdminService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+            <state relative-caret-position="418">
+              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,37 +88,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/vo/Result.java">
+        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/mapper/AdminMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/pojo/Permission.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="154">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -174,9 +104,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -186,6 +116,7 @@
       <find>test</find>
       <find>pagesize</find>
       <find>delete</find>
+      <find>logout</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,12 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/ArticleBodyParam.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/ArticleParam.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/config/WebMVCConfig.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/pojo/ArticleTag.java" />
-        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/dao/mapper/ArticleTagMapper.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/common/LogAnnotation.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/common/LogAspect.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/utils/IpUtils.java" />
@@ -232,10 +157,8 @@
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/impl/CommentServiceImpl.java" />
         <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/config/MybatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/AdminApp.java" />
-        <option value="$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/main.html" />
         <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/model/params/PageParam.java" />
         <option value="$PROJECT_DIR$/blog-admin/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/blog-admin/pom.xml" />
         <option value="$PROJECT_DIR$/blog-api/pom.xml" />
         <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/model/params/PageParam.java" />
         <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/vo/Result.java" />
@@ -245,6 +168,14 @@
         <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/PermissionService.java" />
         <option value="$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/permission.html" />
+        <option value="$PROJECT_DIR$/blog-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/pojo/Admin.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/SecurityUserService.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/mapper/AdminMapper.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/main.html" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/AuthService.java" />
       </list>
     </option>
   </component>
@@ -274,8 +205,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="721" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="946" />
+    <option name="y" value="16" />
     <option name="width" value="1060" />
     <option name="height" value="1028" />
   </component>
@@ -462,19 +394,6 @@
               <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chen" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-paren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-paren" type="462c0819:PsiDirectoryNode" />
-              <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -646,7 +565,7 @@
       <workItem from="1626142689272" duration="17427000" />
       <workItem from="1626913837550" duration="4576000" />
       <workItem from="1626918941630" duration="93280000" />
-      <workItem from="1627429907719" duration="9695000" />
+      <workItem from="1627429907719" duration="23254000" />
     </task>
     <servers />
   </component>
@@ -674,13 +593,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135704000" />
+    <option name="totallyTimeSpent" value="149263000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="577" y="0" width="848" height="822" extended-state="0" />
+    <frame x="757" y="13" width="848" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23793566" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23670886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -690,7 +609,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49936628" visible="true" weight="0.34684685" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49936628" visible="true" weight="0.2942943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3900293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -767,63 +686,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/service/TagsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/controller/TagsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/ArticleParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/ArticleBodyParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/chen/blog/vo/params/PageParams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -1091,13 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.4.3/mybatis-plus-extension-3.4.3.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -1109,24 +964,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1139,7 +980,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/mapper/PermissionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="209">
           <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1160,39 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/vo/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/pojo/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/PermissionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -1203,10 +1011,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/vo/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/pojo/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/permission.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="289" column="48" selection-start-line="289" selection-start-column="48" selection-end-line="289" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/SecurityUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/chen/blog/admin/service/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
